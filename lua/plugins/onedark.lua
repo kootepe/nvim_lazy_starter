@@ -12,7 +12,6 @@ return {
       },
       highlights = {
         ["@lsp.type.parameter"] = { fg = "orange", fmt = "italic,bold" },
-        -- ["NormalFloat"] = { fg = "orange", fmt = "italic,bold" },
         ["NormalFloat"] = { bg = "None" },
       },
     },
