@@ -11,7 +11,9 @@ return {
         functions = "bold",
       },
       highlights = {
-        ["@parameter"] = { fmt = "italic" },
+        ["@lsp.type.parameter"] = { fg = "orange", fmt = "italic,bold" },
+        -- ["NormalFloat"] = { fg = "orange", fmt = "italic,bold" },
+        ["NormalFloat"] = { bg = "None" },
       },
     },
   },

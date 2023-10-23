@@ -8,8 +8,16 @@ return {
       },
       styles = {
         functions = "bold",
-        parameters = "italic",
+      },
+      highlights = {
+        ["@lsp.type.parameter"] = { fg = "orange", italic = true },
       },
     },
   },
+  -- {
+  --   "LazyVim/LazyVim",
+  --   opts = {
+  --     colorscheme = "onedark_dark",
+  --   },
+  -- },
 }
