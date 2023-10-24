@@ -5,6 +5,10 @@ return {
     opts = {
       options = {
         always_show_bufferline = true,
+        indicator = {
+          icon = "▎", -- this should be omitted if indicator style is not 'icon'
+          style = "underline",
+        },
       },
     },
     keys = {
