@@ -34,7 +34,7 @@ return {
         use_treesitter = true,
         -- details about support_filetypes and exclude_filetypes in https://github.com/shellRaining/hlchunk.nvim/blob/main/lua/hlchunk/utils/filetype.lua
         style = {
-          { fg = "#806d9c" },
+          { fg = "#FF10F0" },
         },
         textobject = "",
         max_file_size = 1024 * 1024,
